@@ -1,0 +1,226 @@
+@keyframes takoAnim {
+  0% {
+    background-position: 0px 0px;
+  }
+  50% {
+    background-position: 0px -151px;
+  }
+  100% {
+    background-position: 0px 0px;
+  }
+}
+
+.tako-animate {
+  animation: takoAnim 1s steps(1) infinite;
+}
+
+@keyframes tumiAnim {
+  0% {
+    background-position: 0px 0px;
+  }
+  50% {
+    background-position: 0px -200px;
+  }
+  100% {
+    background-position: 0px 0px;
+  }
+}
+
+.tuni-animate {
+  animation: tumiAnim 1s steps(1) infinite;
+}
+
+@keyframes hanaAnim {
+  0% {
+    background-position: 0px 0px;
+  }
+  50% {
+    background-position: 0px -104px;
+  }
+  100% {
+    background-position: 0px 0px;
+  }
+}
+
+.hana-animate {
+  animation: hanaAnim 1s steps(1) infinite;
+}
+
+@keyframes anagoAnim {
+  0% {
+    background-position: 0px 0px;
+  }
+  50% {
+    background-position: 0px -100px;
+  }
+  100% {
+    background-position: 0px 0px;
+  }
+}
+.anago-animate {
+  animation: anagoAnim 1s steps(1) infinite;
+}
+
+@keyframes tamanegiAnim {
+  0% {
+    background-position: 0px 0px;
+  }
+  50% {
+    background-position: 0px -114px;
+  }
+  100% {
+    background-position: 0px 0px;
+  }
+}
+.tamanegi-animate {
+  animation: tamanegiAnim 1s steps(1) infinite;
+}
+
+@keyframes foodHashiAnim {
+  0% {
+    background-position: 0px 0px;
+  }
+  50% {
+    background-position: 0px -120px;
+  }
+  100% {
+    background-position: 0px 0px;
+  }
+}
+.food-Hashi-animate {
+  animation: foodHashiAnim 1s steps(1) infinite;
+}
+
+@keyframes foodTamanegiAnim {
+  0% {
+    background-position: 0px 0px;
+  }
+  50% {
+    background-position: 0px -59px;
+  }
+  100% {
+    background-position: 0px 0px;
+  }
+}
+.food-Tamanegi-animate {
+  animation: foodTamanegiAnim 1s steps(1) infinite;
+}
+
+@keyframes foodTakoAnim {
+  0% {
+    background-position: 0px 0px;
+  }
+  50% {
+    background-position: 0px -77px;
+  }
+  100% {
+    background-position: 0px 0px;
+  }
+}
+.food-Tako-animate {
+  animation: foodTakoAnim 1s steps(1) infinite;
+}
+
+@keyframes foodArukuAnim {
+  0% {
+    background-position: 0px 0px;
+  }
+  50% {
+    background-position: 0px -77px;
+  }
+  100% {
+    background-position: 0px 0px;
+  }
+}
+.food-Aruku-animate {
+  animation: foodArukuAnim 1s steps(1) infinite;
+}
+
+@keyframes playKumiAnim {
+  0% {
+    background-position: 0px 0px;
+  }
+  33% {
+    background-position: 0px -52px;
+  }
+  66% {
+    background-position: 0px -104px;
+  }
+  100% {
+    background-position: 0px 0px;
+  }
+}
+
+.play-Kumi-animate {
+  animation: playKumiAnim 1.5s steps(1) infinite;
+}
+
+@keyframes playKirakiral {
+  0% {
+    background-position: 0px 0px;
+  }
+  20% {
+    background-position: 0px -125px;
+  }
+  40% {
+    background-position: 0px -250px;
+  }
+  60% {
+    background-position: 0px -375px;
+  }
+  80% {
+    background-position: 0px -500px;
+  }
+  100% {
+    background-position: 0px 0px;
+  }
+}
+
+.play-Kirakiral-animate {
+  animation: playKirakiral 2s steps(1) infinite;
+}
+
+@keyframes playInuAnima {
+  0% {
+    background-position: 0px 0px;
+  }
+  50% {
+    background-position: 0px -34px;
+  }
+  100% {
+    background-position: 0px 0px;
+  }
+}
+.play-inu-animate {
+  animation: playInuAnima 1s steps(1) infinite;
+}
+
+@keyframes playKiAnima {
+  0% {
+    background-position: 0px 0px;
+  }
+  50% {
+    background-position: 0px -110px;
+  }
+  100% {
+    background-position: 0px 0px;
+  }
+}
+.play-ki-animate {
+  animation: playKiAnima 1s steps(1) infinite;
+}
+
+@keyframes playTaiyouAnima {
+  0% {
+    background-position: 0px 0px;
+  }
+  50% {
+    background-position: 0px -70px;
+  }
+  100% {
+    background-position: 0px 0px;
+  }
+}
+.play-taiyou-animate {
+  animation: playTaiyouAnima 1s steps(1) infinite;
+}
