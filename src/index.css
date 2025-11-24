@@ -8,7 +8,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #16212d;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -16,10 +16,19 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+@theme {
+  --color-color-1: #2984e0;
+  --color-color-2: #15304b;
+  --color-color-3: #101922;
+}
+
 body {
   margin: 0;
   display: flex;
-  place-items: center;
-  min-width: 320px;
   min-height: 100vh;
+  width: 100%;
+}
+
+#root {
+  width: 100%;
 }

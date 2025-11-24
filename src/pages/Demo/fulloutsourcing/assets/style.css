@@ -1,0 +1,31 @@
+@keyframes cloud-move1 {
+  0% {
+    transform: translateX(70vw);
+  }
+  100% {
+    transform: translateX(-110vw);
+  }
+}
+
+@keyframes cloud-move2 {
+  0% {
+    transform: translateX(120vw);
+  }
+  100% {
+    transform: translateX(-110vw);
+  }
+}
+
+.mv_book {
+  position: fixed;
+  top: calc(50% + 150px);
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  width: 59.6%;
+  min-width: 764px;
+  max-width: 1130px;
+  z-index: 2;
+  perspective: 2424px;
+}
+
+/* url(../src/pages/Demo/fulloutsourcing/assets/book.png) */
